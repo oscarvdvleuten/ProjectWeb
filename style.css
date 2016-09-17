@@ -1,5 +1,11 @@
+body{
+font-family: 'nexa_boldregular', Georgia, Serif;	
+}
+
 h1{
-font-size: 1.5em; 
+font-size: 1.5em;
+font-family: 'nexa_boldregular', Georgia, Serif;
+text-shadow: 2px 2px 3px rgba(150, 150, 150, 0.58);
 }
 
 h2{
@@ -11,17 +17,27 @@ font-size: 1.3em;
 }
 
 #overzicht > article{
-	width: 20em;
-	height: auto;
-	border: 1px solid black;
-	padding: 1em;
-	margin: 0 auto;
-	margin-top:2em;
-	border-radius: .4em;
+width: 80%;
+height: auto;
+border: 1px solid black;
+padding: 2em;
+margin: 0 auto;
+margin-top:2em;
+border-radius: .4em;
+-webkit-box-shadow: 0px 0px 55px -10px rgba(0,0,0,0.20);
+-moz-box-shadow: 0px 0px 55px -10px rgba(0,0,0,0.20);
+box-shadow: 0px 0px 55px -10px rgba(0,0,0,0.20);
+transition: all .2s ease-in-out;
+}
+
+#overzicht > article:hover{
+transform: scale(1.01);
 }
 
 #overzicht p{
-font-size:1.1em;	
+font-size:1.1em;
+font-family: 'nexa_lightregular', Georgia, Serif;;
+font-weight: bold;	
 }
 
 #detail{
@@ -37,3 +53,23 @@ font-size: 1.3em;
 line-height: 1.3em;
 }
 
+@font-face {
+    font-family: 'nexa_boldregular';
+    src: url('fonts/nexa_bold-webfont.woff2') format('woff2'),
+         url('fonts/nexa_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'nexa_lightregular';
+    src: url('fonts/nexa_light-webfont.woff2') format('woff2'),
+         url('fonts/nexa_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
