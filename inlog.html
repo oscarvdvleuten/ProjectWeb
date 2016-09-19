@@ -2,40 +2,34 @@
 <html lang="nl">
 	<head>
 		<meta charset="utf-8">
-		<title>Readle</title>
+		<title>Transavia Read</title>
 		<link rel="stylesheet" href="style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">		
 	</head>
 	<body>
-		<main id='inlog'>
+		<main id="inlog">
 			<header>
 				<nav>
-					<a href="#">Logo</a>
-					<a href="#">Home</a>
-					<a href="#">Liked</a>
-					<a href="#">Write</a>
+					<ul>
+						<li><a href="index.html"><img src="images/Transavia.svg"></a></li>
+						<li><a href="#">Jouw likes</a></li>
+						<li><a href="inlog.html">Inloggen</a></li>
+					</ul>
 				</nav>
 			</header>
-			<nav>
-				<input type="text" name="lname"><br>
-				<select>
-  					<option value="volvo">Newest</option>
-  					<option value="saab">Oldest</option>
-  					<option value="opel">Random</option>
-				</select>
-				<a href="#">Trending</a>
-				<a href="#">Fiction</a>
-				<a href="#">Non Fiction</a>
-			</nav>
 			<form>
 			  <fieldset>
-			    <legend>Login:</legend>
-			    Voornaam: <input type="text"><br>
-			    Tussenvoegsel: <input type="text"><br>
-			    Achternaam: <input type="text">
-			    Email: <input type="email">
-			    Adres: <input type="text">
-			    Telefoonnummer: <input type="tel">
-			    Wachtwoord: <input type="password">
+			  	<ul>
+			  	<h1>Inloggen</h1>
+			    	<li><label>Voornaam:</label> <input type="text"><br></li>
+			    	<li><label>Tussenvoegsel:</label> <input type="text"><br></li>
+			    	<li><label>Achternaam:</label> <input type="text"></li>
+			    	<li><label>Email:</label> <input type="email"></li>
+			    	<li><label>Adres:</label> <input type="text"></li>
+			    	<li><label>Telefoonnummer:</label> <input type="tel"></li>
+			    	<li><label>Wachtwoord:</label> <input type="password"></li>
+			    	<li id='button_center'><a class='inloggen' href=''>Inloggen</a></li>
+			    <ul>
 			  </fieldset>
 			</form>
 		</main>

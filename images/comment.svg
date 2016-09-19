@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="30px" height="25px" viewBox="0 0 30 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.838701105   0 0 0 0 0.838701105   0 0 0 0 0.838701105  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Option-1" transform="translate(-458.000000, -787.000000)" fill="#00D66C">
+            <g id="Group">
+                <g id="Section-of-articles" transform="translate(213.000000, 276.000000)">
+                    <g id="Card-1" filter="url(#filter-1)">
+                        <g id="Group-2" transform="translate(245.000000, 511.000000)">
+                            <path d="M1.75415586,14.556962 L18.4186366,14.556962 C18.9033683,14.556962 19.2957145,14.9476709 19.2957145,15.4303797 L19.2957145,19.9931139 L25.7276193,13.4826582 L25.7276193,1.74683544 L1.75415586,1.74683544 L1.75415586,14.556962 Z M18.4186366,23 C18.3069553,23 18.1941046,22.9784557 18.0865164,22.9347848 C17.7567351,22.8002785 17.5415586,22.4811899 17.5415586,22.1265823 L17.5415586,16.3037975 L0.877077932,16.3037975 C0.392346195,16.3037975 0,15.9130886 0,15.4303797 L0,0.873417722 C0,0.390708861 0.392346195,0 0.877077932,0 L26.6046973,0 C27.089429,0 27.4817752,0.390708861 27.4817752,0.873417722 L27.4817752,13.8407595 C27.4817752,14.0695949 27.3911438,14.2896962 27.2297615,14.4527342 L19.0437008,22.7391392 C18.8758865,22.9091646 18.6490157,23 18.4186366,23 L18.4186366,23 Z" id="Page-1"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
