@@ -4,23 +4,27 @@ margin:0;
 }
 
 h1{
+font-size: 2em;
+font-family: 'nexa_boldregular', Georgia, Serif;
+text-shadow: 2px 2px 3px rgba(150, 150, 150, 0.1);
+color:#2F2F2F;    
+}
+
+h2{
 font-size: 1.5em;
 font-family: 'nexa_boldregular', Georgia, Serif;
 text-shadow: 2px 2px 3px rgba(150, 150, 150, 0.1);
 color:#2500A4;
 }
 
-h2{
-font-size: 1.3em; 
-}
-
 a{
 text-decoration: none;
 font-family: 'nexa_boldregular', Georgia, Serif;
+color: #00D66C;
 }
 
 main{
-background: url(images/background.jpg) no-repeat center center fixed; 
+background: url(images/backgrounddark.jpg) no-repeat center center fixed; 
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -82,9 +86,21 @@ height: 1em;
 padding: 1em;
 margin-left: 2em;
 border-radius: .4em;
-border:1px solid grey;
+border-top-right-radius:0;
+border-bottom-right-radius:0;
+border:none;
 font-family: 'nexa_boldregular', Georgia, Serif;
-margin-top: 1em;
+}
+
+.zoek{
+border-top-left-radius: 0 !important;
+border-bottom-left-radius: 0 !important;  
+box-shadow: none !important;
+padding-top: 4px !important;
+padding-bottom: 9px !important;
+margin-left: -5px;
+background-color:#FF2761 !important;
+color:white !important;
 }
 
 ::-webkit-scrollbar { 
@@ -96,7 +112,6 @@ margin-top: 1em;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
   -ms-overflow-style: -ms-autohiding-scrollbar;
-background:red;
 }
 
 #overzicht > article{
@@ -150,8 +165,16 @@ margin-top: 1em;
 font-size: .8em;
 }
 
+#overzicht h1{
+font-size: 3em;
+font-family: 'nexa_boldregular', Georgia, Serif;
+text-shadow: 2px 2px 3px rgba(150, 150, 150, 1);
+color:white;
+margin-left: 1em;
+}
+
 .readmore{
-font-family: 'nexa_lightregular', Georgia, Serif;;
+font-family: 'nexa_boldregular', Georgia, Serif;;
 font-size: 1em; 
 padding: 0.4em 1.3em;
 border-radius: 2em;
@@ -245,6 +268,9 @@ input, select {
 margin-left: 0em;
 }    
     
+#overzicht h1{
+display: none;
+}    
 
 }
 
@@ -288,7 +314,7 @@ margin-top:1em;
 
 #filter nav{
 margin: 0 auto;
-width:22em;
+width:85%;
 
 }
 
@@ -335,6 +361,10 @@ transform: scale(1.01);
 #overzicht > article > nav{
 margin-top: 2em;
 height: 2.5em;
+}
+
+#overzicht h1{
+display: none;
 }
 
 .readmore{
