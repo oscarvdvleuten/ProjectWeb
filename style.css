@@ -80,7 +80,7 @@ background-color:white;
 box-shadow: 0px 2px 0px 0px rgba(207,207,207,1);
 }
 
-input, select {
+input {
 width: 15em;
 height: 1em;
 padding: 1em;
@@ -264,7 +264,7 @@ box-shadow: 0px 0px 55px -10px rgba(0,0,0,0.60);
 transition: all .2s ease-in-out;
 }
 
-input, select {
+input {
 margin-left: 0em;
 }    
     
@@ -314,9 +314,9 @@ margin-top:1em;
 
 #filter nav{
 margin: 0 auto;
-width:85%;
-
+width:21.1em;
 }
+
 
 #filter nav ul{
 list-style-type: none;
@@ -367,25 +367,6 @@ height: 2.5em;
 display: none;
 }
 
-.readmore{
-font-family: 'nexa_lightregular', Georgia, Serif;;
-font-size: 1em; 
-padding: 0.4em 1.3em;
-border-radius: 2em;
-background-color:#00D66C;
--webkit-box-shadow: 0px 4px 0px 0px rgba(0,136,69,1);
--moz-box-shadow: 0px 4px 0px 0px rgba(0,136,69,1);
-box-shadow: 0px 4px 0px 0px rgba(0,136,69,1);
-color: white;       
-}
-
-.readmore:hover{
--webkit-box-shadow: 0px 0px 0px 0px rgba(0,136,69,1);
--moz-box-shadow: 0px 0px 0px 0px rgba(0,136,69,1);
-box-shadow: 0px 0px 0px 0px rgba(0,136,69,1); 
-background-color:#008845;    
-}
-
 #overzicht > article > nav{
 font-size: 1em;
 }
@@ -394,7 +375,6 @@ font-size: 1em;
 margin-top: 1em;
 font-size: .8em;
 }
-
 
 #inlog{
 height: 60em;  
