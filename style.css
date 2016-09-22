@@ -182,8 +182,7 @@ background-color:#00D66C;
 -webkit-box-shadow: 0px 4px 0px 0px rgba(0,136,69,1);
 -moz-box-shadow: 0px 4px 0px 0px rgba(0,136,69,1);
 box-shadow: 0px 4px 0px 0px rgba(0,136,69,1);
-color: white;    
-
+color: white;
 }
 
 .readmore:hover{
@@ -192,7 +191,6 @@ color: white;
 box-shadow: 0px 0px 0px 0px rgba(0,136,69,1); 
 background-color:#008845;    
 }
-
 
 #inlog{
 height: 60em;  
@@ -278,6 +276,11 @@ display: none;
 
 @media screen and (max-width: 44em) {
 main{
+background: url(images/backgrounddarkblur.jpg) no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;    
 width: 100%;
 }
 
@@ -336,7 +339,9 @@ background-color:white;
 -moz-box-shadow: 0px 2px 0px 0px rgba(207,207,207,1);
 box-shadow: 0px 2px 0px 0px rgba(207,207,207,1);
 }
+    
 
+    
 .middle{
 margin-left:2.6em; 
 }
@@ -360,6 +365,8 @@ transition: all .2s ease-in-out;
 transform: scale(1.01);
 }
 
+  
+    
 #overzicht > article > nav{
 margin-top: 2em;
 height: 2.5em;
