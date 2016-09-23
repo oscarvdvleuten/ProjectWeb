@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="66px" height="66px" viewBox="0 0 66 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40 (33762) - http://www.bohemiancoding.com/sketch -->
+    <title>button</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="button" transform="translate(33.000000, 33.000000) rotate(-180.000000) translate(-33.000000, -33.000000) translate(0.000000, 0.000000)">
+            <g id="Page-1">
+                <g id="Option-1">
+                    <g id="Group-3" transform="translate(33.000000, 33.000000) rotate(180.000000) translate(-33.000000, -33.000000) ">
+                        <rect id="Rectangle-6" fill="#00D66C" x="0" y="0" width="66" height="66"></rect>
+                        <polygon id="Page-1" fill="#FFFFFF" transform="translate(33.217457, 32.485750) rotate(90.000000) translate(-33.217457, -32.485750) " points="41.703207 25.268293 33.09474 34.16397 24.731707 25.532004 24.731707 30.7814195 33.230512 39.7032064 41.703207 30.806224"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

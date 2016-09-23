@@ -52,6 +52,7 @@ font-size: 1.2em;
 margin-right: 1.7em;
 }
 
+
 #filter{
 margin-top:1em;
 }
@@ -197,7 +198,7 @@ height: 60em;
 }
 
 #inlog fieldset{
-width: 25em;
+width: 26em;
 height:auto;
 background: rgba(255, 255, 255, 0.9);
 border: none;
@@ -432,16 +433,26 @@ color: white;
 }
 
 #detail{
-max-width: 40em;
+max-width: 45em;
 min-width: 20em;
 padding: 1.2em;
-border: 1px solid black;
 margin: 0 auto;
+margin-top: 2em;
+background-color: white;
 }
 
 #detail p{
 font-size: 1.3em;
 line-height: 1.3em;
+}
+
+.detailmain{ 
+background-color: #fafafa;
+background-image: none;
+}
+
+.backbutton{
+margin-top: 1em;    
 }
 
 @font-face {
